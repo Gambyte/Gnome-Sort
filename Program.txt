@@ -105,7 +105,7 @@ namespace ConsoleApp2
                 }
 
             }
-            else if(choice == 2)
+            else if(choice != 1)
             {
                 Console.WriteLine("You Selected Descending Order");
                 for (int i = 1; i < arr.Length; i++)
